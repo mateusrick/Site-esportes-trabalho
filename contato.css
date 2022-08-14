@@ -1,0 +1,286 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+.cabecalho{
+    background-color: rgb(37, 37, 39);
+    grid-area: cabecalho;
+}
+
+.conteudo1{
+    background: rgba(197, 148, 14, 0.877);
+    grid-area: conteudo1;
+}
+
+.conteudo2{
+    background: rgb(255, 255, 255);
+    grid-area: conteudo2;
+}
+
+.conteudo3{
+    background:  rgba(197, 148, 14, 0.877);
+    grid-area: conteudo3;
+}
+
+.conteudo4{
+    background: rgb(37, 37, 39);
+    grid-area: conteudo4;
+}
+
+.rodape{
+    background: rgb(37, 37, 39);
+    grid-area: rodape;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 5%  21% 30% 9% 40% 10%   ;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "conteudo1 conteudo2"
+    "conteudo1 conteudo2"
+    "conteudo4 conteudo4"
+    "conteudo3 conteudo3"
+    "rodape rodape";
+    
+
+}
+
+#menu_horizontal{
+    background-color: rgb(37, 37, 39);
+}
+#menu_horizontal ul{ 
+list-style-type: none;
+padding: 0;
+background-color: rgb(37, 37, 39);
+max-width: 800px;
+}
+
+#menu_horizontal ul li{
+    display: inline;
+    position: relative;
+    left: 30%;
+}
+
+#menu_horizontal ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .6s;
+    font-size: 20px;
+    height: 45px;
+}
+
+#menu_horizontal ul li a:hover{
+    background-color: rgb(13, 134, 138);
+}
+
+
+.fundo_inicial{
+    width: 100%;
+    height:900px;;
+   background-color: #C64E30;
+}
+
+.textogrande{
+    position: relative;
+    display: flex;
+   justify-content: center;
+   font-size: 300%;
+   top: 30%;
+   color: rgb(255, 255, 255);
+   font-family: 'Roboto', sans-serif;
+   
+   }
+
+   .mensagem{
+    position: relative;
+    display: flex;
+   justify-content: center;
+   font-size: 200%;
+   top: 20%;
+   color: rgb(255, 255, 255);
+   font-family: 'Roboto', sans-serif;
+   }
+
+   input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #49c74d;
+    color: white;
+    padding: 14px 20px;
+    margin: 78px 0;
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+   
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .inputs {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    
+  
+    position: relative;
+    top: 2%;
+  }
+
+  .nome{
+   font-size: 200%;
+   display: flex;
+   justify-content: center;
+   color:black ;
+  }
+
+  .imagemloja1{
+width: 30%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 1%;
+position: relative;
+top: 70%;
+border-radius: 10%;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+  }
+  .imagemloja2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    position: relative;
+    top: 70%;
+    border-radius: 10%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    
+      }
+ 
+      .imagemloja3{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1%;
+        position: relative;
+        top: 70%;
+        border-radius: 10%;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+          }     
+
+.imagens{
+    display: flex;
+justify-content: center;
+flex-direction: row;
+width: 100%;
+height: 200%;
+
+
+
+}
+
+.imagemloja1:hover {
+    -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+ 
+.imagemloja2:hover {
+    -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+ 
+.imagemloja3:hover {
+    -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+ 
+  
+
+.endereco1{
+
+  position: relative;
+  left: 5%;
+  top: 140%;
+  font-size: 180%;
+        
+}
+
+.endereco2{
+
+    position: relative;
+    left: 36%;
+    top: 106%;
+    font-size: 180%;
+          
+  }
+
+  .endereco3{
+
+    position: relative;
+    left: 69%;
+    top: 73%;
+    font-size: 180%;
+          
+  }
+
+
+.insta{
+width: 4%;
+padding: 1%;
+padding-top: 6%;
+
+}
+
+.face{
+    width: 4%;
+    padding: 1%;
+    padding-top: 6%;
+}
+
+.tt{
+    width: 4%;
+    padding: 1%;
+    padding-top: 6%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logotipo{
+position: absolute;
+bottom: 88%;
+}
+
+.logotipoimg{
+    width: 40%;
+    position: relative;
+    left: 30%;
+
+}

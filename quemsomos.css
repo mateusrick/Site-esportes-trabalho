@@ -1,0 +1,158 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+cabecalho{
+    background-color: rgb(37, 37, 39);
+    grid-area: cabecalho;
+    
+}
+
+conteudo1 {
+    background:#ffffff ;
+    grid-area: conteudo1;
+}
+
+conteudo2{
+    background:#FA8100 ;
+    grid-area: conteudo2;
+}
+
+conteudo3{
+    background:#FA8100 ;
+    grid-area: conteudo3;
+}
+
+conteudo4{
+    background:#ffffff ;
+    grid-area: conteudo4;
+}
+
+conteudo5{
+    background:rgb(71, 71, 83); 
+    grid-area: conteudo5;
+   
+    
+}
+
+
+
+rodape{
+    background-color: rgb(37, 37, 39);
+    grid-area: rodape;
+
+   
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40% 10%;
+    grid-template-rows: 9.7% 20%  40% 40% 9.70% 12vh 12vh;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho cabecalho"
+    "conteudo5 conteudo5 conteudo5 conteudo5"
+    "conteudo1 conteudo1 conteudo2 conteudo2"
+    "conteudo3 conteudo3 conteudo4 conteudo4"
+    "rodape rodape rodape rodape";
+}
+
+#menu_horizontal{
+    background-color: rgb(37, 37, 39);
+}
+#menu_horizontal ul{ 
+list-style-type: none;
+padding: 0;
+background-color: rgb(37, 37, 39);
+max-width: 800px;
+}
+
+#menu_horizontal ul li{
+    display: inline;
+    position: relative;
+    left: 30%;
+}
+
+#menu_horizontal ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .6s;
+    font-size: 20px;
+    height: 45px;
+}
+
+#menu_horizontal ul li a:hover{
+    background-color: rgb(13, 134, 138);
+}
+
+.logotipo{
+    position: absolute;
+    bottom: 88%;
+    }
+    
+    .logotipoimg{
+        width: 40%;
+        position: relative;
+        left: 30%;
+    
+    }
+.fundo_inicial{
+    width: 100%;
+    height:900px;;
+   background-color: #C64E30;
+}
+
+
+
+h1{
+    position: absolute;
+    top: 16%;
+left: 40%;
+   font-size: 270%;
+   color: rgb(255, 255, 255);
+   font-family: 'Roboto', sans-serif;
+ 
+   
+   }
+
+.subtitulo{
+        font-size: 230%;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 41%;
+        font-family: 'Roboto', sans-serif;
+    
+   }
+
+.titulo_h{
+    font-size: 230%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -1%;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.titulo_h{
+    position: relative;
+
+}
+
+.texto_h{
+    font-size: 200%;
+}
+
+.texto_etica{
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+ 
+}

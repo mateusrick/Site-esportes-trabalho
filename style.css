@@ -1,0 +1,258 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+cabecalho{
+    background-color: rgb(37, 37, 39);
+    grid-area: cabecalho;
+    
+}
+
+fundo1 {
+    background:#C64E30 ;
+    grid-area: fundo1;
+}
+
+fundo2{
+    background:#C64E30 ;
+    grid-area: fundo2;
+}
+
+separacao{
+    background: white;
+    grid-area: separacao;
+   
+}
+
+rodape{
+    background-color: rgb(37, 37, 39);
+    grid-area: rodape;
+   
+}
+
+.logotipo{
+    position: absolute;
+    bottom: 88%;
+    }
+    
+    .logotipoimg{
+        width: 40%;
+        position: relative;
+        left: 30%;
+    
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 12vh 110vh 12vh 110vh 12vh;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "fundo1 fundo1"
+    "separacao separacao"
+    "fundo2 fundo2"
+    "rodape rodape";
+
+}
+
+
+#menu_horizontal{
+    background-color: rgb(37, 37, 39);
+}
+#menu_horizontal ul{ 
+list-style-type: none;
+padding: 0;
+background-color: rgb(37, 37, 39);
+max-width: 800px;
+}
+
+#menu_horizontal ul li{
+    display: inline;
+    position: relative;
+    left: 30%;
+}
+
+#menu_horizontal ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .6s;
+    font-size: 20px;
+    height: 45px;
+}
+
+#menu_horizontal ul li a:hover{
+    background-color: rgb(13, 134, 138);
+}
+
+
+.fundo_inicial{
+    width: 100%;
+    height:900px;;
+   background-color: #C64E30;
+}
+
+.boneco{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 30%;  
+   
+    
+}
+
+h1{
+    position: relative;
+    bottom: 40%;
+    display: flex;
+   justify-content: center;
+   font-size: 470%;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   
+   }
+   
+   h2{
+       font-size: 270%;
+       color: white;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       bottom: 40%;
+       font-family: 'Roboto', sans-serif;
+   
+   }
+   
+   .subtitulo_h{
+    font-size: 230%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 41%;
+    font-family: 'Roboto', sans-serif;
+}
+.botao_fundo{
+    height: 7%;
+    border-radius: 300px;
+    width: 20%;
+    top: -35%;
+    left: 40%;
+    background: white;
+   position: relative;
+
+   display: flex;
+   justify-content: center;
+  
+}
+
+.botao_fundo p{
+    position: relative;
+    top: -1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 140%;
+}
+.botao_fundo p a{
+text-decoration: none;
+color: black;
+
+}
+
+separacao p  {
+    font-size: 270%;
+       color: black;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       bottom:10%; 
+       font-family: 'Roboto', sans-serif; 
+}
+
+.cesta{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 10%;  
+
+   
+    
+}
+
+
+
+.avaliacao1, .avaliacao2, .avaliacao3{
+width: 100px;
+background-color: #9d85eb;
+grid-template-rows: 100px 100px  ;
+border: solid;
+display: grid;
+flex-direction: column;
+
+}
+
+
+.avaliacao{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 250%;
+    grid-template-areas: 
+    'avaliacao1 avaliacao1 avaliacao3';
+  
+    justify-content: center;
+    position: relative;
+    bottom: 30%;
+    gap: 6%;
+  
+
+}
+
+.avaliacao1, .avaliacao2, .avaliacao3{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    bottom: 20%;
+    
+  
+}
+
+.avatar{
+    width: 70%;
+    position: relative;
+    left: 10%;
+ 
+}
+
+.estrela{
+    width: 80%;
+    position: relative;
+    top: 18%;
+    left: 6%;
+
+  
+}
+
+.texto_avaliacoes{
+font-size: 200%;
+height: 0%;}
+
+.subtitulo_avaliacoes{
+    font-size: 230%;
+    color: white;
+   position: absolute;
+    z-index: 1;
+    bottom: 170%;
+  left: 15%;
+  
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
